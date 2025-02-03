@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ec5252, #d161ff);
+  color: #333;
+}
+.app-container {
+  max-width: 600px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.head__text {
+  text-align: center;
+}
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.list-header select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #926bee;
+  color: #ffffff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.list-header select:hover {
+  transform: scale(1.05);
+}
+.list-header input {
+  width: 70%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.list-header button {
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #926bee;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.list-header button:hover {
+  background-color: #8052ec;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  background: #926bee;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+li:hover {
+  transform: scale(1.02);
+}
+li.completed span {
+  text-decoration: line-through;
+  color: #333;
+}
+li span {
+  font-size: 16px;
+}
+button {
+  margin-left: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f44336;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+button:hover {
+  background-color: #d32f2f;
+  transform: scale(1.1);
+}
+.delete-list-button {
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+.delete-list-button:hover {
+  background-color: #d32f2f;
+}
